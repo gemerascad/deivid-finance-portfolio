@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import f1 from "@/assets/finops-1.jpg.asset.json";
-import f2 from "@/assets/finops-2.jpg.asset.json";
-import f3 from "@/assets/finops-3.jpg.asset.json";
-import f4 from "@/assets/finops-4.jpg.asset.json";
-import d1 from "@/assets/dashboard-1.jpg.asset.json";
-import d2 from "@/assets/dashboard-2.jpg.asset.json";
-import d3 from "@/assets/dashboard-3.jpg.asset.json";
-import d4 from "@/assets/dashboard-4.jpg.asset.json";
-import d5 from "@/assets/dashboard-5.jpg.asset.json";
+import f1 from "@/assets/finops-1.jpg";
+import f2 from "@/assets/finops-2.jpg";
+import f3 from "@/assets/finops-3.jpg";
+import f4 from "@/assets/finops-4.jpg";
+import d1 from "@/assets/dashboard-1.jpg";
+import d2 from "@/assets/dashboard-2.jpg";
+import d3 from "@/assets/dashboard-3.jpg";
+import d4 from "@/assets/dashboard-4.jpg";
+import d5 from "@/assets/dashboard-5.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
