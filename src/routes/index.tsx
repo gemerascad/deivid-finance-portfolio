@@ -18,18 +18,18 @@ export const Route = createFileRoute("/")({
 const WHATSAPP = "https://wa.me/5551993639639?text=Ol%C3%A1%20Deivid%2C%20vi%20seu%20portf%C3%B3lio!";
 
 const modules = [
-  { img: "valiador.jpeg", title: "Validador de Guias e Batch Input SAP", text: "Extrai automaticamente fornecedor, valor e vencimento de boletos e guias, sinaliza vencimentos próximos e gera planilhas .xlsx padronizadas para lançamento em lote no SAP." },
-  { img: f2.url, title: "OCR de Caracteres Numéricos", text: "Converte prints e imagens de boletos de difícil leitura em texto puro — basta colar com Ctrl+V. Fim da digitação manual de linhas digitáveis." },
-  { img: f3.url, title: "Higienizador de Linhas Digitáveis", text: "Remove pontos, espaços, máscaras e traços instantaneamente, deixando o código no padrão exigido pelo SAP e pelo Elaw." },
-  { img: f4.url, title: "Consolidador de Documentos (Merge PDF)", text: "Une notas fiscais, comprovantes e minutas em um único PDF auditável, sem limite de arquivos ou tamanho e sem sair do navegador." },
+  { img: "/validador.jpg", title: "Validador de Guias e Batch Input SAP", text: "Extrai automaticamente fornecedor, valor e vencimento de boletos e guias, sinaliza vencimentos próximos e gera planilhas .xlsx padronizadas para lançamento em lote no SAP." },
+  { img: "/ocr.jpg", title: "OCR de Caracteres Numéricos", text: "Converte prints e imagens de boletos de difícil leitura em texto puro — basta colar com Ctrl+V. Fim da digitação manual de linhas digitáveis." },
+  { img: "/sanitizador-string.jpg", title: "Higienizador de Linhas Digitáveis", text: "Remove pontos, espaços, máscaras e traços instantaneamente, deixando o código no padrão exigido pelo SAP e pelo Elaw." },
+  { img: "/consolidador.jpg", title: "Consolidador de Documentos (Merge PDF)", text: "Une notas fiscais, comprovantes e minutas em um único PDF auditável, sem limite de arquivos ou tamanho e sem sair do navegador." },
 ];
 
 const dash = [
-  { img: d1.url, title: "Visão geral e filtros", text: "Filtros por mês, período, responsável, status, tipo de pagamento e empresa. Indicadores principais: 38.979 pagamentos, R$ 937,2 mi movimentados, 37.407 liquidados e 1.562 devoluções (4%)." },
-  { img: d2.url, title: "Evolução mensal e status", text: "Curva de valor pago e quantidade mês a mês para identificar sazonalidade, junto à distribuição de pagamentos OK x devolvidos." },
-  { img: d3.url, title: "Responsáveis e tipos de pagamento", text: "Ranking de produtividade por analista e top 10 tipos de pagamento (condenações, acordos, GPS, custas judiciais), comparando valor e volume." },
-  { img: d4.url, title: "Empresas (clientes)", text: "Top 8 empresas por valor total pago, apoiando a priorização e a conversa com as áreas de negócio." },
-  { img: d5.url, title: "Pagamentos recentes", text: "Tabela operacional com os últimos lançamentos, destacando devoluções para tratamento rápido." },
+  { img: "/dashboard-1.jpg", title: "Visão geral e filtros", text: "Filtros por mês, período, responsável, status, tipo de pagamento e empresa. Indicadores principais: 38.979 pagamentos, R$ 937,2 mi movimentados, 37.407 liquidados e 1.562 devoluções (4%)." },
+  { img: "/dashboard-2.jpg", title: "Evolução mensal e status", text: "Curva de valor pago e quantidade mês a mês para identificar sazonalidade, junto à distribuição de pagamentos OK x devolvidos." },
+  { img: "/dashboard-3.jpg", title: "Responsáveis e tipos de pagamento", text: "Ranking de produtividade por analista e top 10 tipos de pagamento (condenações, acordos, GPS, custas judiciais), comparando valor e volume." },
+  { img: "/dashboard-4.jpg", title: "Empresas (clientes)", text: "Top 8 empresas por valor total pago, apoiando a priorização e a conversa com as áreas de negócio." },
+  { img: "/dashboard-5.jpg", title: "Pagamentos recentes", text: "Tabela operacional com os últimos lançamentos, destacando devoluções para tratamento rápido." },
 ];
 
 const nav = [["Sobre", "#sobre"], ["Projetos", "#projetos"], ["Experiência", "#experiencia"], ["Contato", "#contato"]];
