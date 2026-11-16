@@ -1,14 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import f1 from "@/assets/finops-1.jpg";
-import f2 from "@/assets/finops-2.jpg";
-import f3 from "@/assets/finops-3.jpg";
-import f4 from "@/assets/finops-4.jpg";
-import d1 from "@/assets/dashboard-1.jpg";
-import d2 from "@/assets/dashboard-2.jpg";
-import d3 from "@/assets/dashboard-3.jpg";
-import d4 from "@/assets/dashboard-4.jpg";
-import d5 from "@/assets/dashboard-5.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,7 +18,7 @@ export const Route = createFileRoute("/")({
 const WHATSAPP = "https://wa.me/5551993639639?text=Ol%C3%A1%20Deivid%2C%20vi%20seu%20portf%C3%B3lio!";
 
 const modules = [
-  { img: f1.url, title: "Validador de Guias e Batch Input SAP", text: "Extrai automaticamente fornecedor, valor e vencimento de boletos e guias, sinaliza vencimentos próximos e gera planilhas .xlsx padronizadas para lançamento em lote no SAP." },
+  { img: "valiador.jpeg", title: "Validador de Guias e Batch Input SAP", text: "Extrai automaticamente fornecedor, valor e vencimento de boletos e guias, sinaliza vencimentos próximos e gera planilhas .xlsx padronizadas para lançamento em lote no SAP." },
   { img: f2.url, title: "OCR de Caracteres Numéricos", text: "Converte prints e imagens de boletos de difícil leitura em texto puro — basta colar com Ctrl+V. Fim da digitação manual de linhas digitáveis." },
   { img: f3.url, title: "Higienizador de Linhas Digitáveis", text: "Remove pontos, espaços, máscaras e traços instantaneamente, deixando o código no padrão exigido pelo SAP e pelo Elaw." },
   { img: f4.url, title: "Consolidador de Documentos (Merge PDF)", text: "Une notas fiscais, comprovantes e minutas em um único PDF auditável, sem limite de arquivos ou tamanho e sem sair do navegador." },
